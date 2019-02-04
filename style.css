@@ -4,9 +4,6 @@ body {
   justify-content: center;
   flex-direction: row;
 }
-header {
-  padding: 10px;
-}
 .side {
   padding: 10px;
   background-color: white;
@@ -35,9 +32,6 @@ header {
 .luca {
   border: 2px solid grey;
   border-radius: 5px;
-}
-footer {
-  padding: 10px;
 }
 h3 {
   color: #333;
@@ -93,4 +87,10 @@ h3 {
   border: 1px solid #333;
   border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
+}
+.becode {
+  font-size: 90%;
+  color: #333;
+  position: relative;
+  left: 500px;
 }
