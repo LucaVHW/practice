@@ -1,0 +1,96 @@
+body {
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+header {
+  padding: 10px;
+}
+.side {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 1px 2px grey;
+  width: 160px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.main {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 1px 2px grey;
+  width: 650px;
+  display: grid;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-around;
+  grid-template-areas:
+  'info info2'
+  'info3 info4'
+  'info6 info5';
+}
+.luca {
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+footer {
+  padding: 10px;
+}
+h3 {
+  color: #333;
+}
+.info {
+  width: 250px;
+  color: #333;
+}
+.info2 {
+  width: 250px;
+  color: #333;
+}
+.info3 {
+  width: 250px;
+  color: #333;
+}
+.info4 {
+  width: 250px;
+  color: #333;
+}
+.info5 {
+  width: 250px;
+  color: #333;
+}
+.info6 {
+  width: 250px;
+  color: #333;
+  position: relative;
+  top: -90px;
+}
+.links {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  'link1'
+  'link2'
+  'link3';
+}
+.link1 {
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+.link2 {
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
