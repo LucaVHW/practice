@@ -1,96 +1,55 @@
 body {
-  background-color: steelblue;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-.side {
-  padding: 10px;
-  background-color: white;
-  border: 1px solid grey;
-  border-radius: 5px 0px 0px 5px;
-  box-shadow: 1px 2px grey;
-  width: 200px;
+  background-color: lavender;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-.main {
-  padding: 10px;
-  background-color: white;
-  border: 1px solid grey;
-  border-radius: 0px 5px 5px 0px;
-  box-shadow: 1px 2px grey;
-  width: 650px;
+  font-family: 'Ubuntu', sans-serif;
   display: grid;
-  font-family: 'Open Sans', sans-serif;
-  justify-content: space-around;
-  grid-template-areas:
-  'info info2'
-  'info3 info4'
-  'info6 info5';
+  justify-content: center;
+  text-shadow: 1px 2px lightgrey;
 }
-.luca {
-  border: 2px solid grey;
-  border-radius: 5px;
-}
-h3 {
-  color: #333;
-}
-.info {
-  width: 250px;
-  color: #333;
-}
-.info2 {
-  width: 250px;
-  color: #333;
-}
-.info3 {
-  width: 250px;
-  color: #333;
-}
-.info4 {
-  width: 250px;
-  color: #333;
-}
-.info5 {
-  width: 250px;
-  color: #333;
-}
-.info6 {
-  width: 250px;
-  color: #333;
-  position: relative;
-  top: -130px;
-}
-.links {
+.main1 {
+  padding: 10px;
+  background-color: grey;
+  width: 800px;
+  border-radius: 5px 5px 0px 0px;
   display: grid;
-  grid-gap: 10px;
   grid-template-areas:
-  'link1'
-  'link2'
-  'link3';
+  'img1 img2 img3 img4';
 }
-.link1 {
+.main2 {
   padding: 10px;
-  background-color: steelblue;
-  color: white;
-  text-decoration: none;
-  border: 1px solid #333;
-  border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  grid-template-areas: 'img5 img6 img7 img8';
 }
-.link2 {
+.main3 {
   padding: 10px;
-  background-color: steelblue;
-  color: white;
-  text-decoration: none;
-  border: 1px solid #333;
-  border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  grid-template-areas: 'img9 img10 img11 img12';
 }
-.becode {
-  font-size: 90%;
-  color: #333;
-  position: relative;
-  left: 500px;
+.main4 {
+  padding: 10px;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  grid-template-areas: 'img13 img14 img15 img16';
+}
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid lavender;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #333;
+}
+p {
+  color: lavender;
+  font-weight: 400;
+  font-size: 110%;
+  text-shadow: 1px 2px #333;
+}
+span {
+  color: indianred;
 }
