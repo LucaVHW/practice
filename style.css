@@ -7,34 +7,47 @@ body {
   text-shadow: 1px 2px lightgrey;
 }
 .main1 {
-  padding: 10px;
+  padding: 20px;
   background-color: grey;
   width: 800px;
   border-radius: 5px 5px 0px 0px;
   display: grid;
+  box-shadow: 3px 3px lightgrey;
   grid-template-areas:
   'img1 img2 img3 img4';
 }
 .main2 {
-  padding: 10px;
+  padding: 20px;
   background-color: grey;
   width: 800px;
   display: grid;
+  box-shadow: 3px 3px lightgrey;
   grid-template-areas: 'img5 img6 img7 img8';
 }
 .main3 {
-  padding: 10px;
+  padding: 20px;
   background-color: grey;
   width: 800px;
   display: grid;
+  box-shadow: 3px 3px lightgrey;
   grid-template-areas: 'img9 img10 img11 img12';
 }
 .main4 {
-  padding: 10px;
+  padding: 20px;
   background-color: grey;
   width: 800px;
   display: grid;
+  box-shadow: 3px 3px lightgrey;
   grid-template-areas: 'img13 img14 img15 img16';
+}
+.main5 {
+  padding: 20px;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 3px 3px lightgrey;
+  grid-template-areas: 'img17 img18 img19 img20';
 }
 img {
   width: 150px;
@@ -43,6 +56,10 @@ img {
   border-radius: 50%;
   padding: 2px;
   background-color: #333;
+  opacity: 0.6;
+}
+img:hover {
+  opacity: 1;
 }
 p {
   color: lavender;
@@ -52,4 +69,13 @@ p {
 }
 span {
   color: indianred;
+}
+h1 {
+  color: #333;
+}
+h2 {
+  color: #333;
+}
+footer {
+  padding: 20px;
 }
