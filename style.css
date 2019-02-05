@@ -12,16 +12,16 @@ body {
   width: 800px;
   border-radius: 5px 5px 0px 0px;
   display: grid;
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px #A3A19C;
   grid-template-areas:
   'img1 img2 img3 img4';
 }
 .main2 {
   padding: 20px;
-  background-color: grey;
+  background-color: #948F8E;
   width: 800px;
   display: grid;
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img5 img6 img7 img8';
 }
 .main3 {
@@ -29,15 +29,15 @@ body {
   background-color: grey;
   width: 800px;
   display: grid;
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img9 img10 img11 img12';
 }
 .main4 {
   padding: 20px;
-  background-color: grey;
+  background-color: #948F8E;
   width: 800px;
   display: grid;
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img13 img14 img15 img16';
 }
 .main5 {
@@ -46,7 +46,7 @@ body {
   width: 800px;
   display: grid;
   border-radius: 0px 0px 5px 5px;
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img17 img18 img19 img20';
 }
 img {
