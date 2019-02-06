@@ -6,6 +6,7 @@ body {
   justify-content: center;
   text-shadow: 1px 2px lightgrey;
 }
+/* Main blocks */
 .main1 {
   padding: 20px;
   background-color: grey;
@@ -45,9 +46,17 @@ body {
   background-color: grey;
   width: 800px;
   display: grid;
-  border-radius: 0px 0px 5px 5px;
   box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img17 img18 img19 img20';
+}
+.main6 {
+  padding: 20px;
+  background-color: #948F8E;
+  width: 800px;
+  display: grid;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 3px 3px #A3A19C;
+  grid-template-areas: 'img21 img22 img23 img24';
 }
 img {
   width: 150px;
@@ -83,6 +92,7 @@ h2 {
 footer {
   padding: 20px;
 }
+/* Images */
 .img1 {
   width: 200px;
   height: 200px;
@@ -162,4 +172,54 @@ footer {
 .img20 {
   width: 200px;
   height: 200px;
+}
+@media only screen and (max-width: 780px) {
+  .main1 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img1 img2'
+    'img3 img4';
+  }
+  .main2 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img5 img6'
+    'img7 img8';
+  }
+  .main3 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img9 img10'
+    'img11 img12';
+  }
+  .main4 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img13 img14'
+    'img15 img16';
+  }
+  .main5 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img17 img18'
+    'img19 img20';
+  }
+  .main6 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img21 img22'
+    'img23 img24';
+  }
 }
