@@ -54,9 +54,33 @@ body {
   background-color: #948F8E;
   width: 800px;
   display: grid;
-  border-radius: 0px 0px 5px 5px;
   box-shadow: 3px 3px #A3A19C;
   grid-template-areas: 'img21 img22 img23 img24';
+}
+.main7 {
+  padding: 20px;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  box-shadow: 3px 3px #A3A19C;
+  grid-template-areas: 'img25 img26 img27 img28';
+}
+.main8 {
+  padding: 20px;
+  background-color: #948F8E;
+  width: 800px;
+  display: grid;
+  box-shadow: 3px 3px #A3A19C;
+  grid-template-areas: 'img29 img30 img31 img32';
+}
+.main9 {
+  padding: 20px;
+  background-color: grey;
+  width: 800px;
+  display: grid;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 3px 3px #A3A19C;
+  grid-template-areas: 'img33 img34 img35 img36';
 }
 img {
   width: 150px;
@@ -173,6 +197,70 @@ footer {
   width: 200px;
   height: 200px;
 }
+.img21 {
+  width: 200px;
+  height: 200px;
+}
+.img22 {
+  width: 200px;
+  height: 200px;
+}
+.img23 {
+  width: 200px;
+  height: 200px;
+}
+.img24 {
+  width: 200px;
+  height: 200px;
+}
+.img25 {
+  width: 200px;
+  height: 200px;
+}
+.img26 {
+  width: 200px;
+  height: 200px;
+}
+.img27 {
+  width: 200px;
+  height: 200px;
+}
+.img28 {
+  width: 200px;
+  height: 200px;
+}
+.img29 {
+  width: 200px;
+  height: 200px;
+}
+.img30 {
+  width: 200px;
+  height: 200px;
+}
+.img31 {
+  width: 200px;
+  height: 200px;
+}
+.img32 {
+  width: 200px;
+  height: 200px;
+}
+.img34 {
+  width: 200px;
+  height: 200px;
+}
+.img34 {
+  width: 200px;
+  height: 200px;
+}
+.img35 {
+  width: 200px;
+  height: 200px;
+}
+.img36 {
+  width: 200px;
+  height: 200px;
+}
 @media only screen and (max-width: 780px) {
   .main1 {
     width: 400px;
@@ -221,5 +309,29 @@ footer {
     grid-template-areas:
     'img21 img22'
     'img23 img24';
+  }
+  .main7 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img25 img26'
+    'img27 img28';
+  }
+  .main8 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img29 img30'
+    'img31 img32';
+  }
+  .main9 {
+    width: 400px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+    'img33 img34'
+    'img35 img36';
   }
 }
