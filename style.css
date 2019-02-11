@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+@media only screen and (min-width: 992px) {
 .col-3 {
   background-color: violet;
   border: 2px solid black;
@@ -85,4 +86,5 @@ body {
   border-radius: 8px;
   padding: 5px;
   text-align: center;
+}
 }
